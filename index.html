@@ -13,57 +13,59 @@
     <title>Ofentshe's Project</title>
   </head>
   <body>
-    <header>
-      <form class="search-form" id="search-form">
-        <input
-          type="Search"
-          placeholder="Enter a city.."
-          required
-          id="search-form-input"
-          class="search-form-input"
-        />
-        <input type="Submit" value="Search" class="search-form-button" />
-      </form>
-    </header>
-    <main>
-      <div class="weather-app-data">
-        <div>
-          <h1 class="weather-app-city" id="city">Paris</h1>
-          <p class="weather-app-details">
-            Tuesday 14:49,scattered clouds
-            <br />
-            Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
-          </p>
-        </div>
+    <div class="weather-app">
+      <header>
+        <form class="search-form" id="search-form">
+          <input
+            type="Search"
+            placeholder="Enter a city.."
+            required
+            id="search-form-input"
+            class="search-form-input"
+          />
+          <input type="Submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city" id="city">Paris</h1>
+            <p class="weather-app-details">
+              Tuesday 14:49, scattered clouds
+              <br />
+              Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+            </p>
+          </div>
 
-        <div class="weather-app-temperature-container">
-          <div class="weather-app-icon">🌥️</div>
-          <div class="weather-app-temperature">12°</div>
-          <div class="weather-app-unit">C</div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">🌥️</div>
+            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a
-        href="https://github.com/Ofentse30/Ofentshes-weather-forecast-project"
-        target="_blank"
-      >
-        Ofentshe Mmotla</a
-      >
-      is
-      <a
-        href="https://github.com/Ofentse30/Ofentshes-weather-forecast-project"
-        target="_blank"
-        >open-sourced on Github </a
-      >and<a
-        href="https://ofentshes-weather-project.netlify.app"
-        target="_blank"
-      >
-        hosted on netlify
-      </a>
-    </footer>
+      <footer>
+        This project was coded by
+        <a
+          href="https://github.com/Ofentse30/Ofentshes-weather-forecast-project"
+          target="_blank"
+        >
+          Ofentshe Mmotla</a
+        >
+        is
+        <a
+          href="https://github.com/Ofentse30/Ofentshes-weather-forecast-project"
+          target="_blank"
+          >open-sourced on Github </a
+        >and<a
+          href="https://ofentshes-weather-project.netlify.app"
+          target="_blank"
+        >
+          hosted on netlify
+        </a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
